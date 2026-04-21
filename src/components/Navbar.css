@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Lucy Said Ok';
+  src: url('./assets/fonts/LucySaidOk.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  height: var(--nav-h);
+  transition: background 0.4s ease, box-shadow 0.4s ease, backdrop-filter 0.4s ease;
+}
+
+.navbar--scrolled {
+  background: rgba(7, 9, 26, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 1px 0 rgba(249, 103, 251, 0.12);
+}
+
+.navbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.navbar__brand {
+  font-size: 1.1rem;
+  font-weight: 800;
+  text-decoration: none;
+  letter-spacing: -0.3px;
+}
+
+.navbar__links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar__link {
+  padding: 7px 14px;
+  border-radius: 8px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s, background 0.2s;
+  position: relative;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.navbar__cta {
+  margin-left: 12px;
+  padding: 8px 20px !important;
+  font-size: 13px !important;
+}
+
+.navbar__toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+  padding: 8px;
+}
+
+@media (max-width: 768px) {
+  .navbar__toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar__links {
+    position: fixed;
+    top: var(--nav-h);
+    left: 0;
+    right: 0;
+    background: rgba(7, 9, 26, 0.96);
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    padding: 24px 28px 32px;
+    gap: 4px;
+    border-bottom: 1px solid var(--border);
+    transform: translateY(-120%);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    align-items: flex-start;
+  }
+
+  .navbar__links--open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .navbar__link {
+    width: 100%;
+    padding: 12px 8px;
+  }
+
+  .navbar__cta {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+}

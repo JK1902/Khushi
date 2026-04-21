@@ -1,0 +1,110 @@
+.contact__layout {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 4px;
+}
+
+.contact__email {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--pink);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: opacity 0.2s;
+}
+
+.contact__email:hover { opacity: 0.75; }
+
+.contact__text {
+  font-size: 0.93rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+.contact__socials {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact__social-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.2s, transform 0.2s;
+  width: fit-content;
+}
+
+.contact__social-link:hover {
+  color: var(--pink);
+  transform: translateX(4px);
+}
+
+.contact__form {
+  padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact__field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.contact__field label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.contact__field input,
+.contact__field textarea {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.92rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  resize: vertical;
+}
+
+.contact__field input::placeholder,
+.contact__field textarea::placeholder {
+  color: var(--text-dim);
+}
+
+.contact__field input:focus,
+.contact__field textarea:focus {
+  border-color: rgba(249, 103, 251, 0.4);
+  box-shadow: 0 0 0 3px rgba(249, 103, 251, 0.08);
+}
+
+.contact__submit {
+  align-self: flex-start;
+  margin-top: 4px;
+}
+
+@media (max-width: 800px) {
+  .contact__layout { grid-template-columns: 1fr; }
+}
