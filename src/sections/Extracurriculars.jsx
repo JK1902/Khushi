@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Trophy, Code2, Globe, Users, Music, BookOpen, BookmarkMinusIcon } from 'lucide-react';
+import { Trophy, Code2, Globe, Users, Music, Microphone, BookOpen, BookmarkMinusIcon } from 'lucide-react';
 import './Extracurriculars.css';
 
 const activities = [
