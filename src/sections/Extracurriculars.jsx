@@ -9,7 +9,8 @@ const activities = [
     title: 'Vice President',
     org: 'International Student Council',
     period: 'Aug 2025 — May2026',
-    desc: 'Led ASWSU International Student Council as Vice President, managing a 10-member executive cabinet and overseeing budgeting, operations, and strategic planning. Spearheaded large-scale cultural showcase events with 400+ attendees, strengthening engagement between international and domestic student communities',
+    desc: 'Led ASWSU International Student Council as Vice President, managing a 10-member executive cabinet and overseeing budgeting, operations, and strategic planning.',
+    desc:'Spearheaded large-scale cultural showcase events with 400+ attendees, strengthening engagement between international and domestic student communities',
   },
   {
     icon: Trophy,
