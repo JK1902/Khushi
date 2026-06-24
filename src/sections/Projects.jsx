@@ -4,29 +4,29 @@ import FolderCard from '../components/FolderCard';
 import './Projects.css';
 
 const projects = [
-  {
-    title: 'Project Alpha',
+   {
+    title: 'International Application Rating Algorithm',
     description:
-      'A placeholder for your first amazing project. Describe what problem it solves, who it\'s for, and the impact it made.',
-    tags: ['React', 'Node.js', 'MongoDB'],
-    github: 'https://github.com',
+      'Developed and deployed IARA, a web-based system that automates and streamlines the scoring of international applicants for WSU Admissions. The system utilizes a custom algorithm to evaluate applicants based on multiple criteria, providing a fair and efficient assessment process.',
+    tags: ['TypeScript', 'Three.js', 'WebGL'],
+    github: 'https://github.com/Stevieb253/CPTS421_International_Rating_Algorithm',
+    live: 'https://iara-app-25.azurewebsites.net/login',
+  },
+  {
+    title: 'Flight Route Analysis',
+    description:
+      'Built a multi-page Streamlit dashboard to analyze U.S. domestic flight routes using data analytics, machine learning, forecasting, and interactive geospatial visualizations.',
+    tags: ['Python', 'Streamlit', 'Pandas', 'Plotly', 'Machine Learning'],
+    github: 'https://github.com/JK1902/Flight_Route_Analysis',
     live: null,
   },
   {
-    title: 'Project Beta',
+    title: 'Room Booking System',
     description:
-      'Your second standout project goes here. Highlight the key features, the tech challenges you overcame, and what you learned.',
-    tags: ['Python', 'Flask', 'PostgreSQL'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-  },
-  {
-    title: 'Project Gamma',
-    description:
-      'Yet another cool thing you built. Maybe a design tool, an open-source library, or a data visualization dashboard.',
-    tags: ['TypeScript', 'Three.js', 'WebGL'],
-    github: 'https://github.com',
-    live: 'https://example.com',
+      'Collaborated in a four-person team to design and develop a room booking system with Python, SQL, and HTML/CSS, implementing database integration, reservation workflows, and a web-based user interface.',
+    tags: ['Django','Python', 'SQL', 'HTML/CSS', 'Collaboration'],
+    github: 'https://github.com/Jacawb/CPTS_451-Project',
+    live: null,
   },
 ];
 

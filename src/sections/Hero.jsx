@@ -31,7 +31,7 @@ export default function Hero() {
 
             <p className="hero__sub">
               I build beautiful, high-performance digital experiences.<br />
-              Move your cursor across the canvas — click to remix the colors.
+              Move your cursor across the canvas; click to remix the colors.
             </p>
 
             <div className="hero__ctas">
