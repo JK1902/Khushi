@@ -1,15 +1,15 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Trophy, Code2, Globe, Users, Music, BookOpen } from 'lucide-react';
+import { Trophy, Code2, Globe, Users, Music, BookOpen, BookmarkMinusIcon } from 'lucide-react';
 import './Extracurriculars.css';
 
 const activities = [
   {
-    icon: Code2,
-    title: 'Coding Club — President',
-    org: 'University Coding Club',
-    period: '2023 — Present',
-    desc: 'Leading weekly workshops, organizing hackathons, and growing membership to 100+ students.',
+    icon: Globe,
+    title: 'Vice President',
+    org: 'International Student Council',
+    period: 'Aug 2025 — May2026',
+    desc: 'Led ASWSU International Student Council as Vice President, managing a 10-member executive cabinet and overseeing budgeting, operations, and strategic planning. Spearheaded large-scale cultural showcase events with 400+ attendees, strengthening engagement between international and domestic student communities',
   },
   {
     icon: Trophy,
@@ -19,7 +19,7 @@ const activities = [
     desc: 'Top 5 finalist out of 200 teams. Built [project] solving [problem] in 36 hours.',
   },
   {
-    icon: Globe,
+    icon: Code2,
     title: 'Open Source Contributor',
     org: 'Various Projects',
     period: '2022 — Present',
@@ -33,7 +33,7 @@ const activities = [
     desc: 'Organizing networking events, mentorship programs, and speaker series for underrepresented students.',
   },
   {
-    icon: Music,
+    icon: BookmarkMinusIcon,
     title: 'Placeholder Activity',
     org: 'Club / Organization',
     period: '2021 — 2023',

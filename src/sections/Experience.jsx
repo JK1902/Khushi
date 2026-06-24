@@ -5,6 +5,31 @@ import './Experience.css';
 
 const jobs = [
   {
+    role: ' Design Analysis & Algorithms:  Teaching Assistant',
+    company: 'Washington State University, Pullman',
+    period: 'Aug 2025 - May 2026 ',
+    type: 'Part-time · Teaching Assistant',
+    bullets: [
+      'Supported 200+ students as a Teaching Assistant for Cpt_S: 350 Design and Analysis of Algorithms and Introduction to Computer Programming through weekly labs and office hours.',
+      "Delivered hands-on instruction in Python, debugging, recursion, and core algorithmic problem-solving concepts.",
+      "Assisted students in strengthening conceptual understanding and applying efficient problem-solving techniques.",
+    ],
+    tags: ['Problem Solving', 'Mentoring', 'Teaching', 'Algorithms', 'Data Structures'],
+  },
+  {
+    role: ' Introduction to Python: Teaching Assistant',
+    company: 'Washington State Unniversity, Pullman',
+    period: 'Aug 2024 - Dec 2024 ',
+    type: 'Part-time · Teaching Assistant',
+    bullets: [
+      'Led lab section (20 students) for Cpt_S 111: Intro to Programming, teaching Python fundamentals and problem-solving.',
+      "Mentored students through debugging, assignments, and core concepts (loops, data structures, algorithms).",
+      "Graded coursework and provided targeted feedback to improve code quality and understanding.",
+      "Held office hours to support student success and reinforce key programming concepts.",
+    ],
+    tags: ['Python', 'Mentoring', 'Teaching', 'Problem Solving'],
+  },
+  {
     role: 'Web Development Intern',
     company: 'Energy System Innovation Center',
     period: 'May 2024 - Aug 2024 ',
@@ -14,19 +39,20 @@ const jobs = [
       'Collaborated with cross-functional teams to design and implement the website.',
       'Optimized and improved the performance of the website.',
     ],
-    tags: ['html', 'css', 'javascript', 'WordPress'],
+    tags: ['HTML', 'CSS', 'JavaScript', 'WordPress'],
   },
   {
     role: 'Web Developer',
-    company: 'Organization / Club',
-    period: 'Sep 2023 — May 2024',
+    company: 'Aura Aqua Waters',
+    period: 'Sep 2019 — May 2022',
     type: 'Part-time · Volunteer',
     bullets: [
-      "Developed and maintained the organization\'s website, growing traffic by X%.",
-      'Introduced modern tooling ([tool]) cutting build times in half.',
-      'Mentored 3 junior developers on React best practices.',
+      "Developed and maintained the organization\'s website, growing traffic by 59%.",
+      "Translated client requirements into a user-focused design aligned with brand and business goals",
+      ' Built site using HTML, CSS, and JavaScript with emphasis on responsiveness and cross-device compatibility',
+
     ],
-    tags: ['React', 'Tailwind', 'Figma'],
+    tags: ['CSS', 'HTML', 'JavaScript', 'Figma'],
   },
 ];
 
