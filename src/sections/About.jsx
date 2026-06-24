@@ -3,9 +3,9 @@ import { motion, useInView } from 'framer-motion';
 import './About.css';
 
 const skills = {
-  Languages: ['Python', 'JavaScript', 'TypeScript', 'Java', 'C++'],
-  Frontend: ['React', 'HTML/CSS', 'Three.js', 'Figma'],
-  Backend: ['Node.js', 'Express', 'Flask', 'REST APIs'],
+  Languages: ['Python', 'JavaScript', 'Java', 'C++'],
+  Frontend: ['React', 'HTML/CSS', 'Figma'],
+  Backend: ['Node.js', 'Flask', 'REST APIs'],
   Tools: ['Git', 'Docker', 'VS Code', 'Linux', 'Adobe XD', 'Maya',],
 };
 
@@ -37,7 +37,7 @@ export default function About() {
             </div>
             <div className="about__text">
               <p>
-                Hi! I'm <strong>Khushi Panchal</strong> — a passionate developer and creative problem solver
+                Hi! I'm <strong>Khushi Panchal</strong>,a passionate developer and creative problem solver
                 who loves turning complex ideas into elegant, intuitive products.
               </p>
               <p>

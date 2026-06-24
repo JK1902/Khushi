@@ -6,7 +6,6 @@ import './Contact.css';
 const socials = [
   { icon: Github, label: 'GitHub', href: 'https://github.com/JK1902' },
   { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/khushi-panchal-/' },
-  // { icon: Twitter, label: 'Twitter', href: 'https://twitter.com' },
 ];
 
 const fade = (i = 0) => ({
