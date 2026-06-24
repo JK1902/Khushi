@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Trophy, Code2, Globe, Users, Music, Mic, BookOpen, BookmarkMinusIcon } from 'lucide-react';
+import { Trophy, Code2, Globe, Users, Music, BookOpen, BookmarkMinusIcon, Mic2 } from 'lucide-react';
 import './Extracurriculars.css';
 
 const activities = [
@@ -12,7 +12,7 @@ const activities = [
     desc: 'Led the ASWSU International Student Council as Vice President, managing a 10-member executive cabinet, overseeing budgeting, operations, and strategic planning, and spearheading cultural showcase events attended by 400+ students to strengthen engagement between international and domestic communities.',
   },
   {
-    icon: Microphone,
+    icon: Mic2,
     title: 'Guest Speaker',
     org: 'Alumni Panel, WSU',
     period: 'May 2026',
